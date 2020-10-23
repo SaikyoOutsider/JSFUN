@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-equiv" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<title>R means Reaction</title>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<div class="score">SCORE: <span class="score__num">0</span></div>
+		<div class="bestScore">BEST SCORE: <span class="bestScore__num">0</span></div>
+		<div class="timer"></div>
+		<div class="menu">
+			<div class="button__start button">START</div>
+			<div class="button__settings button">SETTINGS</div>
+		</div>
+		<div class="popup">
+			<div class="exit"></div>
+			<div class="popup__menu menu-popup">
+				<div class="menu-popup__item active">SETTINGS</div>
+				<div class="menu-popup__item">SKINS</div>
+			</div>
+			<div class="popup__size size-popup settings">
+				<div class="size-popup__container">
+					<p>SIZE</p>
+					<div class="size-popup__item selected"></div>
+					<div class="size-popup__item"></div>
+					<div class="size-popup__item "></div>
+				</div>
+				<form action="#">
+					<p>TIME</p>
+					<input type="radio" name="1" class="time" checked>
+					0.5min
+					<input type="radio" name="1" class="time">
+					1min
+					<input type="radio" name="1" class="time">
+					5min
+				</form>
+			</div>
+			<div class="popup__skins skins-popup skins">
+				<div class = "skins-popup__container">
+					<p>SKINS</p>
+					<div class="skins-popup__item selected"></div>
+					<div class="skins-popup__item"></div>
+					<div class="skins-popup__item"></div>
+				</div>
+				<div class="skins-popup__container">
+					<p>FORM</p>
+					<div class="skins-popup__form selected"></div>
+					<div class="skins-popup__form"></div>
+				</div>
+				<div class="skins-popup__container">
+					<p>BACKGROUND</p>
+					<div class="skins-popup__bg selected"></div>
+					<div class="skins-popup__bg"></div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
